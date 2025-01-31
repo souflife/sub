@@ -1,0 +1,43 @@
+.container {
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.teacher-select, .date-select {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.mark-absent-btn {
+  padding: 8px 16px;
+}
+
+.absent-teachers table, .registered-teachers table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.absent-teachers th, .absent-teachers td, .registered-teachers th, .registered-teachers td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.absent-teachers th, .registered-teachers th {
+  background-color: #f4f4f4;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.action-btn {
+  padding: 8px 16px;
+  margin-right: 10px;
+}
+
+.registered-teachers {
+  margin-top: 40px;
+}

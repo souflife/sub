@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "fullName": "Mr. John Smith",
+        "subject": "Mathematics"
+    },
+    {
+        "id": 2,
+        "fullName": "Ms. Jane Doe",
+        "subject": "English"
+    },
+    {
+        "id": 3,
+        "fullName": "Mr. Mike Johnson",
+        "subject": "Science"
+    }
+]
