@@ -1,0 +1,22 @@
+# Basic redirects (301: Permanent, 302: Temporary)
+/old-page.html    /new-page.html    301
+/blog/*           /news/:splat      302
+
+# Force HTTPS (common for security)
+http://example.com/*    https://example.com/:splat    301!
+
+# SPA (Single Page Application) routing
+/*    /index.html    200
+
+# Custom 404 page
+/*    /404.html    404
+
+# Redirect with country/geo rules
+/eu-redirect    /europe    302!    Country=fr,de,es
+
+# Proxy requests to an external URL
+/api/*    https://api.example.com/:splat    200
+
+# Custom headers (e.g., CORS)
+/static/*    https://cdn.example.com/:splat    200
+    X-Custom-Header: SomeValue
